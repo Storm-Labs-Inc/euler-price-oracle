@@ -1,8 +1,9 @@
-@solady/=lib/solady/src/
-@uniswap/v3-core/=lib/v3-core/
-@uniswap/v3-periphery/=lib/v3-periphery/
-@redstone/evm-connector/=lib/redstone-oracles-monorepo/packages/evm-connector/contracts/
-@openzeppelin/contracts=lib/openzeppelin-contracts/contracts/
-@pyth/=lib/pyth-sdk-solidity/
-ethereum-vault-connector/=lib/ethereum-vault-connector/src/
-@pendle/core-v2/=lib/pendle-core-v2-public/contracts/
+@openzeppelin/contracts=dependencies/openzeppelin-contracts-4.9.6/contracts/
+@pendle/core-v2/=dependencies/pendle-core-v2-public-1.0.0/contracts/
+@pyth/=dependencies/@pythnetwork-pyth-sdk-solidity-4.1.0/
+@redstone/evm-connector/=dependencies/@redstone-finance-evm-connector-0.8.0/contracts/
+@solady/=dependencies/solady-0.0.178/src/
+@uniswap/v3-core/=dependencies/@v3-core-1.0.1-solc-0.8/
+@uniswap/v3-periphery/=dependencies/@v3-periphery-1.4.2-solc-0.8/
+ethereum-vault-connector/=dependencies/ethereum-vault-connector-1.0.1/src/
+forge-std/=dependencies/forge-std-1.9.2/src/

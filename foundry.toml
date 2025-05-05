@@ -2,7 +2,7 @@
 src = "src"
 out = "out"
 test = "test"
-libs = ["lib"]
+libs = ["dependencies"]
 solc = "0.8.23"
 evm_version = "cancun"
 optimizer = true
@@ -24,5 +24,21 @@ runs = 1_000
 depth = 10
 dictionary_weight = 80
 fail_on_revert = false
+
+[soldeer]
+recursive_deps = true
+remappings_generate = false
+remappings_regenerate = false
+
+[dependencies]
+forge-std = "1.9.2"
+ethereum-vault-connector = { version = "1.0.1", git = "https://github.com/euler-xyz/ethereum-vault-connector.git", rev = "084b32284ba643921f8d21bff3ddaf0c4e08d754" }
+openzeppelin-contracts = { version = "4.9.6", git = "https://github.com/OpenZeppelin/openzeppelin-contracts.git", rev = "dc44c9f1a4c3b10af99492eed84f83ed244203f6" }
+pendle-core-v2-public = { version = "1.0.0", git = "https://github.com/pendle-finance/pendle-core-v2-public.git", rev = "a904c7d98ae3e41980de475fa7ba196ddb0008e9" }
+"@pythnetwork-pyth-sdk-solidity" = "4.1.0"
+"@redstone-finance-evm-connector" = "0.8.0"
+"@v3-core" = { version = "1.0.1-solc-0.8", git = "https://github.com/Uniswap/v3-core.git", rev = "6562c52e8f75f0c10f9deaf44861847585fc8129" }
+"@v3-periphery" = { version = "1.4.2-solc-0.8", git = "https://github.com/Uniswap/v3-periphery.git", rev = "b325bb0905d922ae61fcc7df85ee802e8df5e96c" }
+solady = { version = "0.0.178", git = "https://github.com/solady/solady.git", rev = "0123b4c0509ce253e41e5abd2c75a64c06389640" }
 
 # See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options

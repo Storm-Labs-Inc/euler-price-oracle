@@ -1,0 +1,57 @@
+[[dependencies]]
+name = "@pythnetwork-pyth-sdk-solidity"
+version = "4.1.0"
+url = "https://soldeer-revisions.s3.amazonaws.com/@pythnetwork-pyth-sdk-solidity/4_1_0_25-04-2025_15:28:57_pyth-sdk-solidity.zip"
+checksum = "238aecde8b10cb1d246459a86639e9c7e6129ca0ce384c3d5f59d49c3118ed5d"
+integrity = "2e37a7fac3ffc3ec905ff5850ea040e1af62f35fef2a01b39fbd7d21ba277302"
+
+[[dependencies]]
+name = "@redstone-finance-evm-connector"
+version = "0.8.0"
+url = "https://soldeer-revisions.s3.amazonaws.com/@redstone-finance-evm-connector/0_8_0_19-02-2025_17:57:56_evm-connector.zip"
+checksum = "e8868b96a6dfbef3f02e436d23f8eb44bed941d81c3ac5d8602d6be0cfe2c046"
+integrity = "174ccb5568df390dd5047d06272c24cf45740c5b1606de0fa767ca748bd0f2d0"
+
+[[dependencies]]
+name = "@v3-core"
+version = "1.0.1-solc-0.8"
+git = "https://github.com/Uniswap/v3-core.git"
+rev = "6562c52e8f75f0c10f9deaf44861847585fc8129"
+
+[[dependencies]]
+name = "@v3-periphery"
+version = "1.4.2-solc-0.8"
+git = "https://github.com/Uniswap/v3-periphery.git"
+rev = "b325bb0905d922ae61fcc7df85ee802e8df5e96c"
+
+[[dependencies]]
+name = "ethereum-vault-connector"
+version = "1.0.1"
+git = "https://github.com/euler-xyz/ethereum-vault-connector.git"
+rev = "64f6d2171a57e02a0f95bcbdecf1d92e9d253d40"
+
+[[dependencies]]
+name = "forge-std"
+version = "1.9.2"
+url = "https://soldeer-revisions.s3.amazonaws.com/forge-std/1_9_2_06-08-2024_17:31:25_forge-std-1.9.2.zip"
+checksum = "20fd008c7c69b6c737cc0284469d1c76497107bc3e004d8381f6d8781cb27980"
+integrity = "f49457fb6591f0dfd8b59e02e6eb4508a115ef08a86b0803feb0a3939d82d783"
+
+[[dependencies]]
+name = "openzeppelin-contracts"
+version = "4.9.6"
+git = "https://github.com/OpenZeppelin/openzeppelin-contracts.git"
+rev = "dc44c9f1a4c3b10af99492eed84f83ed244203f6"
+
+[[dependencies]]
+name = "pendle-core-v2-public"
+version = "1.0.0"
+git = "https://github.com/pendle-finance/pendle-core-v2-public.git"
+rev = "a904c7d98ae3e41980de475fa7ba196ddb0008e9"
+
+[[dependencies]]
+name = "solady"
+version = "0.0.178"
+url = "https://soldeer-revisions.s3.amazonaws.com/solady/0_0_178_22-03-2024_23:25:44_solady.zip"
+checksum = "3955f472a347745f1c332d8a9f8c788c2598599adfb639e81a7c7276b70fef32"
+integrity = "d15e05b8f68984cde019012623aa0039b4c5118d7d1f3950e528036266f6575b"
