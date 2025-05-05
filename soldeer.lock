@@ -28,14 +28,13 @@ rev = "b325bb0905d922ae61fcc7df85ee802e8df5e96c"
 name = "ethereum-vault-connector"
 version = "1.0.1"
 git = "https://github.com/euler-xyz/ethereum-vault-connector.git"
-rev = "64f6d2171a57e02a0f95bcbdecf1d92e9d253d40"
+rev = "084b32284ba643921f8d21bff3ddaf0c4e08d754"
 
 [[dependencies]]
 name = "forge-std"
 version = "1.9.2"
-url = "https://soldeer-revisions.s3.amazonaws.com/forge-std/1_9_2_06-08-2024_17:31:25_forge-std-1.9.2.zip"
-checksum = "20fd008c7c69b6c737cc0284469d1c76497107bc3e004d8381f6d8781cb27980"
-integrity = "f49457fb6591f0dfd8b59e02e6eb4508a115ef08a86b0803feb0a3939d82d783"
+git = "https://github.com/foundry-rs/forge-std.git"
+rev = "bf6606142994b1e47e2882ce0cd477c020d77623"
 
 [[dependencies]]
 name = "openzeppelin-contracts"
@@ -52,6 +51,5 @@ rev = "a904c7d98ae3e41980de475fa7ba196ddb0008e9"
 [[dependencies]]
 name = "solady"
 version = "0.0.178"
-url = "https://soldeer-revisions.s3.amazonaws.com/solady/0_0_178_22-03-2024_23:25:44_solady.zip"
-checksum = "3955f472a347745f1c332d8a9f8c788c2598599adfb639e81a7c7276b70fef32"
-integrity = "d15e05b8f68984cde019012623aa0039b4c5118d7d1f3950e528036266f6575b"
+git = "https://github.com/Vectorized/solady.git"
+rev = "0123b4c0509ce253e41e5abd2c75a64c06389640"
